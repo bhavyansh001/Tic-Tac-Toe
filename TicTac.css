@@ -1,0 +1,66 @@
+.header {
+    background-color: rgb(16, 238, 103, 0.9);
+    font-size: larger;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.content {
+    background-color: rgb(16, 238, 103, 0.1);
+    margin-top: 0%;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
+
+.boundary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+.margin {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    font-size: 80px;
+
+    /*grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%); could also be used.*/
+}
+
+/*Main*/
+
+.entry {
+    border: 3px solid black;
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+}
+
+/*No Borders*/
+.nbt {
+    border-top: none;
+}
+.nbr {
+    border-right: none;
+}
+.nbb {
+    border-bottom: none;
+}
+.nbl {
+    border-left: none;
+}
+
+.entry:hover {
+    background-color: antiquewhite;
+}
