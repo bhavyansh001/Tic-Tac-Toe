@@ -1,16 +1,11 @@
 .header {
     background-color: rgb(16, 238, 103, 0.9);
     font-size: larger;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    padding: 1vw;
 }
 .content {
     background-color: rgb(16, 238, 103, 0.1);
-    margin-top: 0%;
-    height: 200px;
-    width: 100%;
+    padding: 1vw;
     text-align: center;
 }
 .footer {
@@ -20,19 +15,18 @@
 .boundary {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 100px 0px;
+    padding: 1vw;
 }
 .margin {
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 500px;
-    width: 500px;
-    padding: 10px;
+    height: 19vw;
+    width: 19vw;
+    padding: 1vw;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 33.33% 33.33% 33.33%;
-    font-size: 80px;
+    font-size: 4vw;
 
     /*grid-template-columns: repeat(3, 33.33%);
     grid-template-rows: repeat(3, 33.33%); could also be used.*/
@@ -43,7 +37,7 @@
 .entry {
     border: 3px solid black;
     text-align: center;
-    padding: 40px;
+    padding: 1vw;
     cursor: pointer;
 }
 
