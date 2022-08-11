@@ -9,7 +9,11 @@
             display: grid;
             grid-template-columns: 33.33% 33.33% 33.33%;
             grid-template-rows: 33.33% 33.33% 33.33%;
-            font-size: 4vw;
+            font-size: 15vw;
+    }
+    body
+    .entry{
+        padding: 3vw;
     }
 }
 
