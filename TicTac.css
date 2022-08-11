@@ -1,3 +1,18 @@
+@media screen and (max-width: 700px) {
+    body
+        .margin {
+            background-color: #FFFFFF;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            height: 70vw;
+            width: 70vw;
+            padding: 1vw;
+            display: grid;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+            grid-template-rows: 33.33% 33.33% 33.33%;
+            font-size: 4vw;
+    }
+}
+
 .header {
     background-color: rgb(16, 238, 103, 0.9);
     font-size: larger;
@@ -20,8 +35,8 @@
 .margin {
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 19vw;
-    width: 19vw;
+    height: 20vw;
+    width: 20vw;
     padding: 1vw;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
